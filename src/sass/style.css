@@ -237,4 +237,31 @@ nav {
   cursor: pointer;
 }
 
+.choice {
+  min-height: 898px;
+  padding: 57px 0 137px 0;
+  background-color: black;
+}
+.choice .label {
+  background-color: white;
+  color: black;
+}
+.choice .title {
+  color: white;
+}
+.choice .subtitle {
+  color: white;
+}
+.choice_uber {
+  display: block;
+  margin: 54px auto 0 auto;
+}
+.choice_car_descr {
+  margin: 0 auto;
+  color: white;
+  width: 327px;
+  text-align: center;
+  font-weight: lighter;
+}
+
 /*# sourceMappingURL=style.css.map */
