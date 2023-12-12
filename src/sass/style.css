@@ -81,6 +81,10 @@ nav {
   font-weight: 400;
   text-transform: uppercase;
 }
+.subheader .subheader_btn:hover {
+  background-image: none;
+  background-color: #1eacc7;
+}
 
 .promo {
   min-height: 800px;
@@ -127,6 +131,10 @@ nav {
   font-size: 18px;
   font-weight: 400;
   text-transform: uppercase;
+}
+.promo .promo_btn:hover {
+  background-image: none;
+  background-color: #1eacc7;
 }
 
 .label {
@@ -236,6 +244,28 @@ nav {
   padding: 6px;
   cursor: pointer;
 }
+.mobile_item_plus:before {
+  content: "";
+  display: block;
+  width: 14px;
+  height: 2px;
+  background-color: #1eacc7;
+  transition: 0.5s all;
+}
+.mobile_item_plus:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 14px;
+  width: 2px;
+  background-color: #1eacc7;
+  transition: 0.3s all;
+}
+.mobile_item_plus:hover:before, .mobile_item_plus:hover:after {
+  background-color: #ff5656;
+}
 
 .choice {
   min-height: 898px;
@@ -262,6 +292,16 @@ nav {
   width: 327px;
   text-align: center;
   font-weight: lighter;
+}
+
+.require {
+  padding: 68px 0 84px 0;
+}
+.require_block {
+  margin: 33px 0;
+}
+.require_block_nmb {
+  margin-bottom: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
